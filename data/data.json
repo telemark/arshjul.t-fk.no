@@ -37,79 +37,94 @@
       "activities": {
         "1":[
             {
-              "title" : "Leveranse 1.fase (mål, aktiviteter og tiltak)",
-              "date"  : "2013-01-15",
-              "description" : ""
+              "title" : "Frist for bestilling av økonomiske analyser fra øk.avd.",
+              "date"  : "2015-01-16",
+              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : økonomiavdelingen"
             },
             {
-              "title" : "1. leveranse drøftes i analysegruppen",
-              "date"  : "2013-01-21",
+              "title" : "Frist leveranse – del 1 (mål, aktiviteter og tiltak)",
+              "date"  : "2015-01-16",
+              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
+            },
+            {
+              "title" : "1. leveranse sammenstilles og drøftes i analysegruppen",
+              "date"  : "2015-01-20",
               "description" : ""
             }
         ],
         "2":[
             {
-              "title" : "Leveranse 2.fase (resultater og effekter, måloppnåelse og endringsbehov)",
-              "date": "2013-02-04",
+              "title" : "Frist leveranse – del 2 (resultater og effekter, måloppnåelse og endringsbehov)",
+              "date": "2015-02-06",
+              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
+            },
+            {
+              "title" : "2. leveranse sammenstilles og drøftes i analysegruppen",
+              "date": "2015-02-10",
               "description" : ""
             },
             {
-              "title" : "2. leveranse drøftes i analysegruppen",
-              "date": "2013-02-06",
-              "description" : ""
+              "title" : "Frist for bearbeiding samlet utgave",
+              "date": "2015-02-18",
+              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
             },
             {
-              "title" : "Foreliggende materiale drøftes i LT",
-              "date": "2013-02-10",
-              "description" : ""
+              "title" : "Del 1 og 2 sammenstilles ",
+              "date": "2015-02-19",
+              "description" : "Ansvarlig : analysegruppen.<br />Leveranse til : ledergruppen"
             },
             {
-              "title" : "Tekst og foreløpige regnskapstall til økonomisidene",
-              "date": "2013-02-19",
-              "description" : ""
-            },
-            {
-              "title" : "Analysegruppen klargjør manus for trykking",
-              "date": "2013-02-25",
+              "title" : "Samlet første utkast drøftes i Ledergruppen",
+              "date": "2013-02-23",
               "description" : ""
             }
         ],
         "3":[
             {
-              "title" : "Samlet utkast/korrektur legges fram for LT",
-              "date": "2013-03-17",
-              "description" : ""
+              "title" : "Frist for bearbeidet utgave",
+              "date": "2015-03-02",
+              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
             },
             {
-              "title" : "KOSTRA – til hvert område + økonomisidene",
-              "date": "2013-03-18",
-              "description" : ""
+              "title" : "Kommunikasjonsteamet språkvasker",
+              "date": "2015-03-02",
+              "description" : "Pågår kontinuerlig."
+            },
+            {
+              "title" : "Nytt utkast, med illustrasjoner",
+              "date": "2015-03-09",
+              "description" : "Ansvarlig : analysegruppen.<br>Leveranse til : ledergruppen"
+            },
+            {
+              "title" : "Økonomikapittel og økonomitabeller innarbeides når KOSTRA-tallene publiseres 16.03.",
+              "date": "2015-03-16",
+              "description" : "Ansvarlig : økonomiavdelingen.<br />Leveranse til : analysegruppen"
             },
             {
               "title" : "Trykkeklart manus",
-              "date": "2013-03-22",
-              "description" : ""
+              "date": "2015-03-20",
+              "description" : "Ansvarlig : analysegruppen"
             },
             {
               "title" : "Politisk sak ferdigstilles",
-              "date": "2013-03-25",
-              "description" : ""
-            },
-            {
-              "title" : "Behandling i kontrollutvalget (dato ikke endelig)",
-              "date": "2013-03-26",
-              "description" : ""
+              "date": "2015-03-27",
+              "description" : "Ansvarlig : analysegruppen"
             }
         ],
         "4":[
             {
-              "title" : "Behandling i FU",
-              "date": "2013-04-10",
+              "title" : "Behandling i kontrollutvalget",
+              "date": "2015-04-10",
               "description" : ""
             },
             {
+              "title" : "Behandling i FU",
+              "date": "2015-04-16",
+              "description" : ""
+            },
+          {
               "title" : "Behandling i FT",
-              "date": "2013-04-30",
+              "date": "2015-04-29",
               "description" : ""
             }
         ],
@@ -119,19 +134,24 @@
         "8":[],
         "9":[],
         "10":[],
-        "11":[],
-        "12":[
+        "11":[
               {
                 "title" : "Notat om struktur, innhold og framdrift drøftes og forankres i analysegruppen",
-                "date": "2013-12-12",
+                "date": "2014-11-04",
                 "description" : ""
               },
               {
-                "title" : "Notatet behandles i LT",
-                "date": "2013-12-16",
+                "title" : "Oppdragsnotatet behandles i Ledergruppen",
+                "date": "2014-11-17",
+                "description" : "Ansvarlig : analysegruppen.<br />Leveranse til : ledergruppen"
+              },
+              {
+                "title" : "Oppstart i analysegruppen",
+                "date": "2014-11-18",
                 "description" : ""
               }
-        ]
+        ],
+        "12":[]
       }
     },
     {
