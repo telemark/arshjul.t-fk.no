@@ -20,10 +20,15 @@ path {
 
 .menu {
 	margin-top: 30px;
+	float: left;
 }
 
 .menu>div{
 	cursor: pointer;
+}
+
+.menu>div:hover{
+	background-color: #eeeeee;
 }
 
 .info {
