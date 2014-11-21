@@ -29,6 +29,13 @@ function generateSegments(data){
   return segments;
 }
 
+function activitySortByDate(a,b){
+  var a = parseInt(a.date.replace('-',''),10);
+  var b = parseInt(b.date.replace('-',''),10);;
+
+  return a>b ? 1 : a<b ? -1 : 0;
+}
+
 function getActivitiesSegment(d){
   var segment = d.value.toString();
   var str = '<h2>' + d.text + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
@@ -40,6 +47,7 @@ function getActivitiesSegment(d){
     activities = category.activities[segment];
     str += '<h2><span class="fa fa-square" style="color: ' + category.color + '"></span> ' + category.title + '</h2>';
     if(activities.length > 0){
+      activities.sort(activitySortByDate)
       for (var i in activities){
         activity = activities[i];
         str += '<div class="activity"><span class="date">' + activity.date + '</span>' + activity.title + '<br/>' + activity.description + '</div>'
@@ -54,7 +62,6 @@ function getActivitiesSegment(d){
 }
 
 function getText(d){
-  console.log(d);
   var str = '<h2><span class="fa fa-square" style="color:' + d.color_category + '"></span> ' + d.title + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
 
   var activity;
@@ -73,6 +80,7 @@ function getText(d){
 
 function getActivitiesCollection(collection){
   var activity;
+  var activities = [];
   var segmentArray = Object.keys(collection.activities);
   var str = '<h2><span class="fa fa-square" style="color:' + collection.color + '"></span> ' + collection.title + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
 
@@ -80,10 +88,15 @@ function getActivitiesCollection(collection){
     var segment = collection.activities[segmentNumber];
     if(segment.length > 0){
       for(var i in segment){
-        activity = segment[i];
-        str += '<div class="activity"><span class="date">' + activity.date + '</span>' + activity.title + '<br/>' + activity.description + '</div>'
+        activities.push(segment[i]);
       }
     }
+  });
+
+  activities.sort(activitySortByDate);
+
+  activities.forEach(function(activity){
+    str += '<div class="activity"><span class="date">' + activity.date + '</span>' + activity.title + '<br/>' + activity.description + '</div>';
   });
 
   return str;
