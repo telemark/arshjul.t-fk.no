@@ -14,7 +14,7 @@ function activitySortByDate(a,b){
   return a>b ? 1 : a<b ? -1 : 0;
 }
 
-/* Parses the data-file to generate the segments neede for the chart*/
+/* Parses the data-file to generate the segments needed for the chart */
 function generateSegments(data){
   var segments = []
     ;
@@ -150,7 +150,6 @@ function initializeVisualisation(){
       d3.select("#info").html(getActivitiesSlice(d));
       deleteCtrl();
     });
-
 }
 
 function createMenuItem(item){
