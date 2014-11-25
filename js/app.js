@@ -5,6 +5,16 @@ var config
   , segments
   ;
 
+/* Sorting function, date oldest to newest
+ * date-format needs to be yyyy-mm-dd */
+function activitySortByDate(a,b){
+  var a = parseInt(a.date.split('-').join(''),10);
+  var b = parseInt(b.date.split('-').join(''),10);
+
+  return a>b ? 1 : a<b ? -1 : 0;
+}
+
+/* Parses the data-file to generate the segments neede for the chart*/
 function generateSegments(data){
   var segments = []
     ;
@@ -29,22 +39,16 @@ function generateSegments(data){
   return segments;
 }
 
-function activitySortByDate(a,b){
-  var a = parseInt(a.date.split('-').join(''),10);
-  var b = parseInt(b.date.split('-').join(''),10);
-
-  return a>b ? 1 : a<b ? -1 : 0;
-}
-
-function getActivitiesSegment(d){
-  var segment = d.value.toString();
+/* Get all activities for all segments in a given "slice" */
+function getActivitiesSlice(d){
+  var slice = d.value.toString();
   var str = '<h2>' + d.text + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
   var activities;
   var activity;
   var category;
   for (var c in data){
     category = data[c];
-    activities = category.activities[segment];
+    activities = category.activities[slice];
     str += '<h2><span class="fa fa-square" style="color: ' + category.color + '"></span> ' + category.title + '</h2>';
     if(activities.length > 0){
       activities.sort(activitySortByDate)
@@ -55,13 +59,13 @@ function getActivitiesSegment(d){
     } else {
       str += category.no_activities_message;
     }
-
   }
 
   return str;
 }
 
-function getText(d){
+/* Get all activities for a given segment */
+function getActivitiesSegment(d){
   var str = '<h2><span class="fa fa-square" style="color:' + d.color_category + '"></span> ' + d.title + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
 
   var activity;
@@ -78,6 +82,7 @@ function getText(d){
   return str;
 }
 
+/* Get all activities for a given collection */
 function getActivitiesCollection(collection){
   var activity;
   var activities = [];
@@ -124,7 +129,7 @@ function initializeVisualisation(){
     /* Add a click event for segment */
     d3.selectAll("#yearwheel path").on('click', function() {
       var d = d3.select(this).data()[0];
-      d3.select("#info").html(getText(d));
+      d3.select("#info").html(getActivitiesSegment(d));
       deleteCtrl();
     });
 
@@ -139,10 +144,10 @@ function initializeVisualisation(){
       d3.select(this).attr('fill', p.color);
     });
 
-    /* Add a click event for segment */
+    /* Add a click event for labels (slices) */
     d3.selectAll("#yearwheel text").on('click', function() {
       var d = d3.select(this).data()[0];
-      d3.select("#info").html(getActivitiesSegment(d));
+      d3.select("#info").html(getActivitiesSlice(d));
       deleteCtrl();
     });
 
@@ -178,6 +183,7 @@ function deleteCtrl(){
   });
 }
 
+/* loads data, initialize visualizations and menu */
 d3.json("data/data.json", function(error, json) {
 
   if (error) {
