@@ -84,5 +84,5 @@ footer p {
 
 .trash-me {
 	cursor: pointer;
-	margin-left: 2em;
+	float: right;
 }

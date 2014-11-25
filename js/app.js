@@ -42,7 +42,7 @@ function generateSegments(data){
 /* Get all activities for all segments in a given "slice" */
 function getActivitiesSlice(d){
   var slice = d.value.toString();
-  var str = '<h2>' + d.text + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
+  var str = '<h2>' + d.text + '<span class="trash-me" id="trash-me">[x]</span></h2>';
   var activities;
   var activity;
   var category;
@@ -66,7 +66,7 @@ function getActivitiesSlice(d){
 
 /* Get all activities for a given segment */
 function getActivitiesSegment(d){
-  var str = '<h2><span class="fa fa-square" style="color:' + d.color_category + '"></span> ' + d.title + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
+  var str = '<h2><span class="fa fa-square" style="color:' + d.color_category + '"></span> ' + d.title + '<span class="trash-me" id="trash-me">[x]</span></h2>';
 
   var activity;
 
@@ -87,7 +87,7 @@ function getActivitiesCollection(collection){
   var activity;
   var activities = [];
   var segmentArray = Object.keys(collection.activities);
-  var str = '<h2><span class="fa fa-square" style="color:' + collection.color + '"></span> ' + collection.title + '<span class="fa fa-trash trash-me" id="trash-me"></span></h2>';
+  var str = '<h2><span class="fa fa-square" style="color:' + collection.color + '"></span> ' + collection.title + '<span class="trash-me" id="trash-me">[x]</span></h2>';
 
   segmentArray.forEach(function(segmentNumber){
     var segment = collection.activities[segmentNumber];
