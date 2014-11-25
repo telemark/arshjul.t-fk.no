@@ -30,8 +30,8 @@ function generateSegments(data){
 }
 
 function activitySortByDate(a,b){
-  var a = parseInt(a.date.replace('-',''),10);
-  var b = parseInt(b.date.replace('-',''),10);;
+  var a = parseInt(a.date.split('-').join(''),10);
+  var b = parseInt(b.date.split('-').join(''),10);
 
   return a>b ? 1 : a<b ? -1 : 0;
 }
