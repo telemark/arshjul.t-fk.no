@@ -14,6 +14,18 @@ function activitySortByDate(a,b){
   return a>b ? 1 : a<b ? -1 : 0;
 }
 
+/* formats date to human-friendly-norwegian */
+function formatDate(inDate){
+  var monthNames = {
+        '01' : 'januar', '02' : 'februar', '03' : 'mars', '04' : 'april', '05':'mai', '06' : 'juni', '07':'juli',
+        '08' : 'august', '09' : 'september', '10' : 'oktober', '11' : 'november', '12' : 'desember'
+      }
+    , dateArray = inDate.split('-')
+    ;
+
+  return dateArray[2] + '. ' + monthNames[dateArray[1]] + ' ' + dateArray[0];
+}
+
 /* Parses the data-file to generate the segments needed for the chart */
 function generateSegments(data){
   var segments = []
@@ -54,7 +66,7 @@ function getActivitiesSlice(d){
       activities.sort(activitySortByDate)
       for (var i in activities){
         activity = activities[i];
-        str += '<div class="activity"><span class="date">' + activity.date + '</span>' + activity.title + '<br/>' + activity.description + '</div>'
+        str += '<div class="activity"><span class="date">' + formatDate(activity.date) + '</span>' + activity.title + '<br/>' + activity.description + '</div>'
       }
     } else {
       str += category.no_activities_message;
@@ -73,7 +85,7 @@ function getActivitiesSegment(d){
   if(d.activities.length > 0){
     for (var i in d.activities){
       activity = d.activities[i];
-      str += '<div class="activity"><span class="date">' + activity.date + '</span>' + activity.title + '<br/>' + activity.description + '</div>'
+      str += '<div class="activity"><span class="date">' + formatDate(activity.date) + '</span>' + activity.title + '<br/>' + activity.description + '</div>'
     }
   } else {
     str += d.no_activities_message;
@@ -101,7 +113,7 @@ function getActivitiesCollection(collection){
   activities.sort(activitySortByDate);
 
   activities.forEach(function(activity){
-    str += '<div class="activity"><span class="date">' + activity.date + '</span>' + activity.title + '<br/>' + activity.description + '</div>';
+    str += '<div class="activity"><span class="date">' + formatDate(activity.date) + '</span>' + activity.title + '<br/>' + activity.description + '</div>';
   });
 
   return str;
