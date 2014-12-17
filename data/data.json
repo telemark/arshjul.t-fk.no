@@ -155,7 +155,7 @@
       }
     },
     {
-      "title":"Langtidsprioriteringer (LTP)",
+      "title":"Langtidsprioriteringer (LTP) 2016 - 19",
       "description" : "",
       "color" : "#4472C4",
       "no_activities_message":"Ingen aktiviteter denne måneden",
@@ -164,75 +164,80 @@
         "2":[],
         "3":[
           {
-            "title" : "Orientering om budsjettnotatet i fylkesrådmannens ledergruppe",
-            "date": "2013-03-03",
-            "description" : ""
+            "title" : "Bestillingsbrev",
+            "date": "2015-03-01",
+            "description" : "Ansvarlig: Økonomisjef.<br/>Leveranse til: Avdelingsledere."
           },
           {
-            "title" : "Analysegruppens innspill til den strategiske overbygningen",
-            "date": "2013-03-15",
-            "description" : ""
+            "title" : "Oppstartsmøte",
+            "date": "2015-03-08",
+            "description" : "Ansvarlig: FRM/Økonomisjef<br/>"
           },
           {
-            "title" : "Den strategiske overbygningen drøftes i fylkesrådmannens ledergruppe",
-            "date": "2013-03-24",
-            "description" : ""
+            "title" : "Innspil fra avdelingene",
+            "date": "2015-03-15",
+            "description" : "Ansvarlig: Avdelingsledere<br/>Leveranse til: Økonomi."
           }
         ],
         "4":[
           {
-            "title" : "Rammeområdenes innspill",
-            "date": "2013-04-04",
-            "description" : ""
+            "title" : "1. utkast til analysegruppa",
+            "date": "2015-04-04",
+            "description" : "Ansvarlig: Økonomisjef<br/>Leveranse til: Analysegruppa."
           },
           {
-            "title" : "Sak til FU om politiske og økonomiske hovedutfordringer",
-            "date": "2013-04-10",
-            "description" : ""
+            "title" : "Innspill fra analysegruppa",
+            "date": "2015-04-10",
+            "description" : "Ansvarlig: Analysegruppa<br/>Leveranse til: Økonomi."
           },
           {
-            "title" : "Samlet utkast drøftes i fylkesrådmannens ledergruppe",
-            "date": "2013-04-28",
+            "title" : "Behandling i ledergruppa",
+            "date": "2015-04-20",
             "description" : ""
           }
         ],
         "5":[
           {
-            "title" : "Endelig drøfting i fylkesrådmannens ledergruppe",
-            "date": "2013-05-12",
-            "description" : ""
+            "title" : "Sluttbehandling i ledergruppa",
+            "date": "2015-05-05",
+            "description" : "Ansvarlig: Økonomisjef"
           },
           {
-            "title" : "Utsendelse av sak",
-            "date": "2013-05-23",
-            "description" : ""
+            "title" : "Frist politisk sak",
+            "date": "2015-05-18",
+            "description" : "Ansvarlig: Økonomisjef"
           },
           {
             "title" : "Behandling i rådet for funksjonshemmede",
-            "date": "2013-05-26",
+            "date": "2015-05-26",
+            "description" : ""
+          },
+          {
+            "title" : "Behandling i eldrerådet",
+            "date": "2015-05-26",
+            "description" : ""
+          },
+          {
+            "title" : "Behandling i Yrkesopplæringsnemnda",
+            "date": "2015-05-26",
             "description" : ""
           }
         ],
         "6":[
           {
-            "title" : "Behandling i HU",
-            "date": "2013-06-02",
-            "description" : "Foregår 02. - 05. juni"
-          },
-          {
-            "title" : "Behandling i eldrerådet",
-            "date": "2013-06-04",
-            "description" : ""
+            "title" : "Behandling hovedutvalg",
+            "date": "2015-06-01",
+            "description" : "Foregår 01. - 04. juni"
           },
           {
             "title" : "Behandling i FU",
-            "date": "2013-06-11",
+            "date": "2015-06-16",
             "description" : ""
           },
           {
             "title" : "Behandling i FT",
-            "date": "2013-06-17",
-            "description" : "Foregår 17. - 18. juni"
+            "date": "2015-06-24",
+            "description" : "Foregår 24. - 25. juni"
           }
         ],
         "7":[],
@@ -244,7 +249,7 @@
       }
     },
     {
-      "title":"Mål- og budsjettdokumentet (MoB)",
+      "title":"Mål- og budsjettdokumentet (MoB) 2016 - 19",
       "description" : "",
       "color" : "#ED7D31",
       "no_activities_message":"Ingen aktiviteter denne måneden",
@@ -253,77 +258,112 @@
         "2":[],
         "3":[],
         "4":[],
-        "5":[],
+        "5":[
+          {
+            "title" : "Bestillingsbrev",
+            "date": "2015-05-15",
+            "description" : "Ansvarlig: Økonomisjef.<br/>Leveranse til: Økonomiansvarlige."
+          },
+          {
+            "title" : "Budsjettseminar",
+            "date": "2015-05-15",
+            "description" : "Ansvarlig: Økonomisjef."
+          }
+        ],
         "6":[
           {
-            "title" : "Frist tall",
-            "date": "2013-06-18",
-            "description" : ""
+            "title" : "Frist tallbudsjett",
+            "date": "2013-06-23",
+            "description" : "Ansvarlig: Budsjettansvarlige.<br/>Leveranse til: Økonomi"
           }
         ],
-        "7":[
-          {
-            "title" : "Tall og tekst gjennomgås",
-            "date": "2013-07-15",
-            "description" : ""
-          }
-        ],
+        "7":[],
         "8":[
           {
+            "title" : "Frist tekst til MOB",
+            "date": "2015-08-28",
+            "description" : "Ansvar: Avdelingsledere.<br/>Leveranse til: Økonomi"
+          },
+          {
+            "title" : "Tallbudsjett investering",
+            "date": "2015-08-28",
+            "description" : "Ansvar: Ansvarlig for investeringsprosjekter.<br/>Leveranse til: Økonomi"
+          },
+          {
             "title" : "Tall og tekst bearbeides",
-            "date": "2013-08-01",
+            "date": "2015-08-29",
             "description" : "Pågår hele august og september"
-          },
-          {
-            "title" : "Frist for innsparingstiltak handlingsprogram 2015 - 2018",
-            "date": "2013-08-11",
-            "description" : ""
-          },
-          {
-            "title" : "Frist tekst",
-            "date": "2013-08-29",
-            "description" : ""
-          },
-          {
-            "title" : "Tallbudsjettforslag til investeringsbudsjettet",
-            "date": "2013-08-29",
-            "description" : ""
           }
         ],
         "9":[
           {
             "title" : "Tall og tekst bearbeides",
-            "date": "2013-09-01",
+            "date": "2015-09-01",
             "description" : "Pågår hele august og september"
+          },
+          {
+            "title" : "1. utkast til analysegruppa",
+            "date": "2015-09-08",
+            "description" : "Ansvarlig: Økonomisjef.<br/>Leveranse til: Analysegruppa."
+          },
+          {
+            "title" : "Innspill fra analysegruppa",
+            "date": "2015-09-15",
+            "description" : "Ansvarlig: Analysegruppa.<br/>Leveranse til: Økonomisjef."
+          },
+          {
+            "title" : "Behandling i ledergruppa",
+            "date": "2015-09-28",
+            "description" : ""
           }
         ],
         "10":[
           {
             "title" : "Statsbudsjettet legges frem medio okt.",
-            "date": "2013-10-15",
+            "date": "2015-10-10",
             "description" : "Dato ikke fastsatt"
           },
           {
-            "title" : "Sak ferdig til politisk behandling",
-            "date": "2013-10-20",
+            "title" : "Sluttbehandling i ledergruppa",
+            "date": "2015-10-12",
             "description" : ""
           },
           {
+            "title" : "Frist politisk sak",
+            "date": "2015-10-22",
+            "description" : "Ansvar: Økonomisjef"
+          },
+          {
             "title" : "Pressekonferanse og offentliggjøring",
-            "date": "2013-10-28",
-            "description" : ""
+            "date": "2015-10-26",
+            "description" : "Ansvar: FRM/Økonomisjef/Team kommunikasjon"
           }
         ],
         "11":[
           {
-            "title" : "Behandling i hovedutvalgene",
-            "date": "2013-11-03",
-            "description" : "Pågår 3. - 6. november"
+            "title" : "Behandling i Råd for funksjonshemmede",
+            "date": "2015-11-02",
+            "description" : ""
           },
           {
-            "title" : "Behandling i fylkesutvalget",
-            "date": "2013-11-18",
-            "description" : "Pågår 18. - 19. november"
+            "title" : "Behandling i Eldrerådet",
+            "date": "2015-11-02",
+            "description" : ""
+          },
+          {
+            "title" : "Behandling i Yrkesopplæringsnemnda",
+            "date": "2015-11-02",
+            "description" : ""
+          },
+          {
+            "title" : "Behandling i hovedutvalgene",
+            "date": "2015-11-02",
+            "description" : "Pågår 2. - 5. november"
+          },
+          {
+            "title" : "Behandling i FU",
+            "date": "2013-11-19",
+            "description" : "Pågår 19. - 20. november"
           }
         ],
         "12":[
@@ -346,28 +386,53 @@
         "3":[],
         "4":[
           {
-            "title" : "Tertialrapport 1.tertial: Rundskriv ut",
-            "date": "2013-04-10",
-            "description" : ""
+            "title" : "Tertialrapport 1.tertial: Bestillingsbrev",
+            "date": "2015-04-21",
+            "description" : "Ansvar: Økonomisjef.<br/>Leveranse til: Budsjettansvarlig"
           }
         ],
         "5":[
           {
-            "title" : "Tertialrapport 1.tertial: Frist for tilbakerapportering",
-            "date": "2013-05-09",
+            "title" : "Tertialrapport 1.tertial: Regnskap må være ajour",
+            "date": "2015-05-05",
+            "description" : "Ansvar: Budsjettansvarlig."
+          },
+          {
+            "title" : "Tertialrapport 1.tertial: Status og prognose budsjett",
+            "date": "2015-05-11",
+            "description" : "Ansvar: Budsjettansvarlig.<br/>Leveranse til: Nærmeste leder"
+          },
+          {
+            "title" : "Tertialrapport 1.tertial: Kommuneproposisjonen og RNB",
+            "date": "2015-05-15",
             "description" : ""
           },
           {
-            "title" : "Tertialrapport 1.tertial: Behandling i FU",
-            "date": "2013-05-26",
-            "description" : ""
+            "title" : "Tertialrapport 1.tertial: Rapportering fra avdelingene",
+            "date": "2015-05-26",
+            "description" : "Ansvar: Budsjettansvarlig.<br/>Leveranse til: Økonomi"
           }
         ],
         "6":[
           {
-            "title" : "Tertialrapport 1.tertial: Behandling i FT",
-            "date": "2013-06-18",
+            "title" : "Tertialrapport 1.tertial: Behandling i ledergruppa",
+            "date": "2015-06-01",
             "description" : ""
+          },
+          {
+            "title" : "Tertialrapport 1.tertial: Frist politisk sak",
+            "date": "2015-06-03",
+            "description" : "Ansvar: Økonomisjef"
+          },
+          {
+            "title" : "Tertialrapport 1.tertial: Behandling FU",
+            "date": "2015-06-16",
+            "description" : ""
+          },
+          {
+            "title" : "Tertialrapport 1.tertial: Behandling FT",
+            "date": "2015-06-24",
+            "description" : "Pågår 24. - 25. juni"
           }
         ],
         "7":[],
