@@ -438,32 +438,64 @@
         "7":[],
         "8":[
           {
-            "title" : "Tertialrapport 2.tertial: Rundskriv ut",
-            "date": "2013-08-14",
-            "description" : ""
+            "title" : "Tertialrapport 2.tertial: Bestillingsbrev",
+            "date": "2015-08-14",
+            "description" : "Ansvar: Økonomisjef.<br/>Leveranse til: Budsjettansvarlig"
           }
         ],
         "9":[
           {
-            "title" : "Tertialrapport 2.tertial: Frist for tilbakerapportering",
-            "date": "2013-09-15",
+            "title" : "Tertialrapport 2.tertial: Regnskap må være ajour",
+            "date": "2015-09-04",
+            "description" : "Ansvar: Budesjettansvarlig"
+          },
+          {
+            "title" : "Tertialrapport 2.tertial: Status og prognose budsjett",
+            "date": "2015-09-10",
+            "description" : "Ansvar: Budesjettansvarlig.<br/>Leveranse til: Nærmeste leder"
+          },
+          {
+            "title" : "Tertialrapport 2.tertial: Rapportering fra avdelingene",
+            "date": "2015-09-14",
+            "description" : "Ansvar: Budesjettansvarlig.<br/>Leveranse til: Økonomi"
+          },
+          {
+            "title" : "Tertialrapport 2.tertial: Behandling i ledergruppa",
+            "date": "2015-09-14",
+            "description" : "Ansvar: Budesjettansvarlig.<br/>Leveranse til: Økonomi"
+          },
+          {
+            "title" : "Tertialrapport 2.tertial: Frist politisk sak",
+            "date": "2015-09-17",
+            "description" : "Ansvar: Økonomisjef"
+          },
+          {
+            "title" : "Tertialrapport 2.tertial: Behandling FU",
+            "date": "2015-09-30",
             "description" : ""
           }
         ],
         "10":[
           {
-            "title" : "Tertialrapport 2.tertial: Behandling i FU",
-            "date": "2013-10-13",
-            "description" : ""
-          },
-          {
             "title" : "Tertialrapport 2.tertial: Behandling i FT",
-            "date": "2013-10-21",
+            "date": "2015-10-30",
             "description" : ""
           }
         ],
-        "11":[],
-        "12":[]
+        "11":[
+          {
+            "title" : "Årsregnskapet: Brev om regnskapsavslutningen",
+            "date": "2015-11-20",
+            "description" : "Ansvar: Regnskapssjef.<br/>Leveranse til: Budsjettansvarlig, virksomheter"
+          }
+        ],
+        "12":[
+          {
+            "title" : "Årsregnskapet: Overføring av driftsmidler til investering",
+            "date": "2015-02-12",
+            "description" : "Ansvar: Virksomhetene.<br/>Leveranse til: Økonomi"
+          }
+        ]
       }
     }
   ]
