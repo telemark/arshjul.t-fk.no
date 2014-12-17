@@ -381,7 +381,28 @@
       "color" : "#70AD47",
       "no_activities_message":"Ingen aktiviteter denne måneden",
       "activities": {
-        "1":[],
+        "1":[
+          {
+            "title" : "Årsregnskapet: Behandle fakturaer",
+            "date": "2016-01-16",
+            "description" : "Ansvar: Virksomhetene."
+          },
+          {
+            "title" : "Årsregnskapet: Anordninger",
+            "date": "2016-01-16",
+            "description" : "Ansvar: Virksomhetene."
+          },
+          {
+            "title" : "Årsregnskapet: Oversende avstemming kasse/bank",
+            "date": "2016-01-16",
+            "description" : "Ansvar: Virksomhetene.<br/>Leveranse til: Regnskap."
+          },
+          {
+            "title" : "Årsregnskapet: Avsette til bunde fond",
+            "date": "2016-01-21",
+            "description" : "Ansvar: Virksomhetene."
+          }
+        ],
         "2":[],
         "3":[],
         "4":[
@@ -492,8 +513,13 @@
         "12":[
           {
             "title" : "Årsregnskapet: Overføring av driftsmidler til investering",
-            "date": "2015-02-12",
+            "date": "2015-12-02",
             "description" : "Ansvar: Virksomhetene.<br/>Leveranse til: Økonomi"
+          },
+          {
+            "title" : "Årsregnskapet: Oppgave over solgte anleggsmidler",
+            "date": "2015-12-31",
+            "description" : "Ansvar: Virksomhetene.<br/>Leveranse til: Regnskap"
           }
         ]
       }
