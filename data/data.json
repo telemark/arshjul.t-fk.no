@@ -161,79 +161,80 @@
       "no_activities_message":"Ingen aktiviteter denne måneden",
       "activities": {
         "1":[],
-        "2":[],
-        "3":[
+        "2":[
           {
             "title" : "Bestillingsbrev",
-            "date": "2015-03-01",
+            "date": "2015-02-06",
             "description" : "Ansvarlig: Økonomisjef.<br/>Leveranse til: Avdelingsledere."
           },
           {
             "title" : "Oppstartsmøte",
-            "date": "2015-03-08",
+            "date": "2015-02-11",
             "description" : "Ansvarlig: FRM/Økonomisjef<br/>"
           },
           {
-            "title" : "Innspil fra avdelingene",
-            "date": "2015-03-15",
+            "title" : "Innspill fra avdelingene",
+            "date": "2015-02-25",
             "description" : "Ansvarlig: Avdelingsledere<br/>Leveranse til: Økonomi."
           }
         ],
-        "4":[
+        "3":[
           {
             "title" : "1. utkast til analysegruppa",
-            "date": "2015-04-04",
+            "date": "2015-03-09",
             "description" : "Ansvarlig: Økonomisjef<br/>Leveranse til: Analysegruppa."
           },
           {
             "title" : "Innspill fra analysegruppa",
-            "date": "2015-04-10",
+            "date": "2015-03-16",
             "description" : "Ansvarlig: Analysegruppa<br/>Leveranse til: Økonomi."
-          },
-          {
-            "title" : "Behandling i ledergruppa",
-            "date": "2015-04-20",
-            "description" : ""
           }
         ],
-        "5":[
+        "4":[
+          {
+            "title" : "Behandling i ledergruppa",
+            "date": "2015-04-07",
+            "description" : ""
+          },
           {
             "title" : "Sluttbehandling i ledergruppa",
-            "date": "2015-05-05",
+            "date": "2015-04-14",
             "description" : "Ansvarlig: Økonomisjef"
           },
           {
             "title" : "Frist politisk sak",
-            "date": "2015-05-18",
+            "date": "2015-04-21",
             "description" : "Ansvarlig: Økonomisjef"
-          },
+          }
+        ],
+        "5":[
           {
             "title" : "Behandling i rådet for funksjonshemmede",
-            "date": "2015-05-26",
+            "date": "2015-05-04",
             "description" : ""
           },
           {
             "title" : "Behandling i eldrerådet",
-            "date": "2015-05-26",
+            "date": "2015-05-04",
             "description" : ""
           },
           {
             "title" : "Behandling i Yrkesopplæringsnemnda",
-            "date": "2015-05-26",
+            "date": "2015-05-04",
+            "description" : ""
+          },
+          {
+            "title" : "Behandling hovedutvalg",
+            "date": "2015-05-04",
+            "description" : "Foregår 04. - 07. mai"
+          },
+          {
+            "title" : "Behandling i FU",
+            "date": "2015-05-21",
             "description" : ""
           }
         ],
         "6":[
-          {
-            "title" : "Behandling hovedutvalg",
-            "date": "2015-06-01",
-            "description" : "Foregår 01. - 04. juni"
-          },
-          {
-            "title" : "Behandling i FU",
-            "date": "2015-06-16",
-            "description" : ""
-          },
           {
             "title" : "Behandling i FT",
             "date": "2015-06-24",
