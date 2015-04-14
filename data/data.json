@@ -161,80 +161,99 @@
       "no_activities_message":"Ingen aktiviteter denne måneden",
       "activities": {
         "1":[],
-        "2":[
-          {
-            "title" : "Bestillingsbrev",
-            "date": "2015-02-06",
-            "description" : "Ansvarlig: Økonomisjef.<br/>Leveranse til: Avdelingsledere."
-          },
-          {
-            "title" : "Oppstartsmøte",
-            "date": "2015-02-11",
-            "description" : "Ansvarlig: FRM/Økonomisjef<br/>"
-          },
-          {
-            "title" : "Innspill fra avdelingene",
-            "date": "2015-02-25",
-            "description" : "Ansvarlig: Avdelingsledere<br/>Leveranse til: Økonomi."
-          }
-        ],
+        "2":[],
         "3":[
           {
-            "title" : "1. utkast til analysegruppa",
-            "date": "2015-03-09",
-            "description" : "Ansvarlig: Økonomisjef<br/>Leveranse til: Analysegruppa."
+            "title" : "Oppstart LTP 2016-2019 i rådmannens ledergruppe",
+            "date": "2015-03-10",
+            "description" : ""
           },
           {
-            "title" : "Innspill fra analysegruppa",
+            "title" : "Bestillingsbrev fra økonomiavdelingen",
             "date": "2015-03-16",
-            "description" : "Ansvarlig: Analysegruppa<br/>Leveranse til: Økonomi."
+            "description" : ""
+          },
+          {
+            "title" : "Analysegruppens innspill til den strategiske overbygningen",
+            "date": "2015-03-20",
+            "description" : ""
+          },
+          {
+            "title" : "Rammeområdenes innspill økonomidel LTP dokumentet (endring driftsrammer)",
+            "date": "2015-03-25",
+            "description" : ""
+          },
+          {
+            "title" : "Innspill til sak til FU om hovedutfordringer i fylkesrådmannens ledergruppe",
+            "date": "2015-03-26",
+            "description" : ""
+          },
+          {
+            "title" : "Skrivefrist sak til FU",
+            "date": "2015-03-30",
+            "description" : ""
           }
         ],
         "4":[
           {
-            "title" : "Behandling i ledergruppa",
-            "date": "2015-04-07",
+            "title" : "Sak til FU om politiske og økonomiske hovedutfordringer",
+            "date": "2015-04-16",
             "description" : ""
           },
           {
-            "title" : "Sluttbehandling i ledergruppa",
-            "date": "2015-04-14",
-            "description" : "Ansvarlig: Økonomisjef"
+            "title" : "Vedtak i FU drøftes i fylkesrådmannens ledergruppe",
+            "date": "2015-04-20",
+            "description" : ""
           },
           {
-            "title" : "Frist politisk sak",
-            "date": "2015-04-21",
-            "description" : "Ansvarlig: Økonomisjef"
+            "title" : "Rammeområdenes endelige innspill til LTP dokumentet",
+            "date": "2015-04-20",
+            "description" : ""
+          },
+          {
+            "title" : "Analysegruppens innspill til det samlede dokumentet (form og struktur)",
+            "date": "2015-04-25",
+            "description" : ""
           }
         ],
         "5":[
           {
-            "title" : "Behandling i rådet for funksjonshemmede",
-            "date": "2015-05-04",
+            "title" : "Samlet dokument drøftes i fylkesrådmannens ledergruppe",
+            "date": "2015-05-11",
+            "description" : ""
+          },
+          {
+            "title" : "Endelig drøfting i fylkesrådmannens ledergruppe etter kommprp",
+            "date": "2015-05-18",
+            "description" : ""
+          },
+          {
+            "title" : "Utsendelse av sak",
+            "date": "2015-05-22",
             "description" : ""
           },
           {
             "title" : "Behandling i eldrerådet",
-            "date": "2015-05-04",
-            "description" : ""
-          },
-          {
-            "title" : "Behandling i Yrkesopplæringsnemnda",
-            "date": "2015-05-04",
-            "description" : ""
-          },
-          {
-            "title" : "Behandling hovedutvalg",
-            "date": "2015-05-04",
-            "description" : "Foregår 04. - 07. mai"
-          },
-          {
-            "title" : "Behandling i FU",
-            "date": "2015-05-21",
+            "date": "2015-05-29",
             "description" : ""
           }
         ],
         "6":[
+          {
+            "title" : "Behandling i HU",
+            "date": "2015-06-01",
+            "description" : "Foregår 01. - 04. juni"
+          },
+          {
+            "title" : "Behandling i rådet for funksjonshemmede",
+            "date": "2015-06-15",
+            "description" : ""
+          },
+          {
+            "title" : "Behandling i FU",
+            "date": "2015-06-16",
+            "description" : ""
+          },
           {
             "title" : "Behandling i FT",
             "date": "2015-06-24",
