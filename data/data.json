@@ -38,93 +38,98 @@
         "1":[
             {
               "title" : "Frist for bestilling av økonomiske analyser fra øk.avd.",
-              "date"  : "2015-01-16",
-              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : økonomiavdelingen"
+              "date"  : "2016-01-15",
+              "description" : "Ansvar: Avdelingene"
             },
             {
-              "title" : "Frist leveranse – del 1 (mål, aktiviteter og tiltak)",
-              "date"  : "2015-01-16",
-              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
+              "title" : "Frist leveranse – del 1 (mål, måloppnåelse og  struktur/disposisjon for aktiviteter og resultater",
+              "date"  : "2016-01-15",
+              "description" : "Ansvar: Avdelingene"
             },
             {
-              "title" : "1. leveranse sammenstilles og drøftes i analysegruppen",
-              "date"  : "2015-01-20",
-              "description" : ""
+              "title" : "1. leveranse sammenstilles og drøftes",
+              "date"  : "2016-01-19",
+              "description" : "Ansvar: Analysegruppe"
             }
         ],
         "2":[
             {
-              "title" : "Frist leveranse – del 2 (resultater og effekter, måloppnåelse og endringsbehov)",
-              "date": "2015-02-06",
-              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
+              "title" : " Frist leveranse – del 2 (aktiviteter, resultater og endringsbehov ferdigstilles)",
+              "date": "2016-02-05",
+              "description" : "Ansvar: Avdelingene"
             },
             {
-              "title" : "2. leveranse sammenstilles og drøftes i analysegruppen",
-              "date": "2015-02-10",
-              "description" : ""
+              "title" : "2. leveranse sammenstilles og drøftes",
+              "date": "2016-02-09",
+              "description" : "Ansvar: Analysegruppen"
             },
             {
-              "title" : "Frist for bearbeiding samlet utgave",
-              "date": "2015-02-18",
-              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
+              "title" : "Frist for bearbeiding av samlet utkast",
+              "date": "2016-02-16",
+              "description" : "Ansvar: Avdelingene"
             },
             {
-              "title" : "Del 1 og 2 sammenstilles ",
-              "date": "2015-02-19",
-              "description" : "Ansvarlig : analysegruppen.<br />Leveranse til : ledergruppen"
+              "title" : "Språklig gjennomgang",
+              "date": "2016-02-17",
+              "description" : "Ansvar: Team kommunikasjon"
+            },
+            {
+              "title" : "Del 1 og 2 sammenstilles og sendes Ledergruppen",
+              "date": "2016-02-18",
+              "description" : "Ansvar: Analyseteamet"
             },
             {
               "title" : "Samlet første utkast drøftes i Ledergruppen",
-              "date": "2015-02-23",
-              "description" : ""
+              "date": "2016-02-22",
+              "description" : "Ansvar: Ledergruppen"
+            },
+            {
+              "title" : "Frist for bearbeidet utgave ",
+              "date": "2016-02-29",
+              "description" : "Ansvar: Avdelingene"
             }
         ],
         "3":[
             {
-              "title" : "Frist for bearbeidet utgave",
-              "date": "2015-03-02",
-              "description" : "Ansvarlig : avdelingene.<br />Leveranse til : analysegruppen"
-            },
-            {
               "title" : "Kommunikasjonsteamet språkvasker",
-              "date": "2015-03-02",
-              "description" : "Pågår kontinuerlig."
+              "date": "2016-03-05",
+              "description" : "Ansvarlig : Team kommunikasjon"
             },
             {
-              "title" : "Nytt utkast, med illustrasjoner",
-              "date": "2015-03-09",
-              "description" : "Ansvarlig : analysegruppen.<br>Leveranse til : ledergruppen"
+              "title" : "Nytt utkast, med illustrasjoner, ferdigstilles",
+              "date": "2016-03-08",
+              "description" : "Ansvar: Analysegruppen"
             },
             {
-              "title" : "Økonomikapittel og økonomitabeller innarbeides når KOSTRA-tallene publiseres 16.03.",
-              "date": "2015-03-16",
-              "description" : "Ansvarlig : økonomiavdelingen.<br />Leveranse til : analysegruppen"
+              "title" : "Økonomikapittel og økonomitabeller innarbeides når KOSTRA-tallene publiseres 15.03.",
+              "date": "2016-03-18",
+              "description" : "Ansvar: Økonomiavdelingen"
             },
             {
               "title" : "Trykkeklart manus",
-              "date": "2015-03-20",
-              "description" : "Ansvarlig : analysegruppen"
-            },
-            {
-              "title" : "Politisk sak ferdigstilles",
-              "date": "2015-03-27",
-              "description" : "Ansvarlig : analysegruppen"
+              "date": "2016-03-30",
+              "description" : "Ansvar: Analysegruppen"
             }
         ],
         "4":[
             {
+              "title" : "Politisk sak ferdigstilles",
+              "date": "2016-04-01",
+              "description" : "Ansvar: Analysegruppen"
+            },
+            {
               "title" : "Behandling i kontrollutvalget",
-              "date": "2015-04-10",
+              "date": "2016-04-12",
               "description" : ""
             },
             {
               "title" : "Behandling i FU",
-              "date": "2015-04-16",
+              "date": "2016-04-14",
               "description" : ""
             },
-          {
+            {
               "title" : "Behandling i FT",
-              "date": "2015-04-29",
+              "date": "2016-04-27",
               "description" : ""
             }
         ],
@@ -137,20 +142,15 @@
         "11":[
               {
                 "title" : "Notat om struktur, innhold og framdrift drøftes og forankres i analysegruppen",
-                "date": "2014-11-04",
-                "description" : ""
+                "date": "2015-11-04",
+                "description" : "Ansvar: Analysegruppen"
               },
               {
                 "title" : "Oppdragsnotatet behandles i Ledergruppen",
-                "date": "2014-11-17",
-                "description" : "Ansvarlig : analysegruppen.<br />Leveranse til : ledergruppen"
-              },
-              {
-                "title" : "Oppstart i analysegruppen",
-                "date": "2014-11-18",
-                "description" : ""
+                "date": "2015-11-12",
+                "description" : "Ansvar: Ledergruppen"
               }
-        ],
+          ],
         "12":[]
       }
     },
